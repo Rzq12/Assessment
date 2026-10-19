@@ -1,0 +1,2668 @@
+{
+  "schema_version": "1.0",
+  "source_sha256": "359f2d126a1549480faeec5ce8e0b5e9e622fd5d70483b8e60e4f051f8e96770",
+  "material_id": "Manajemen pppk",
+  "document_name": "Manajemen pppk.pdf",
+  "chunks": [
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 2,
+      "content_type": "text",
+      "text": "MANAJEMENPPPK",
+      "source_ref": "page 2",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 2,
+      "content_type": "text",
+      "text": "LEMBAGA ADMINISTRASINEGARA",
+      "source_ref": "page 2",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "Hak Cipta © pada: Lembaga Administrasi Negara Edisi Tahun 2026",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "Lembaga Administrasi Negara Republik Indonesia Jl. Veteran No. 10 Jakarta Pusat 10110",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "MANAJEMEN PPPK",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "TIM PENGARAH SUBSTANSI:",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "1.Dr. Muhammad Taufiq, DEA. 2.Dr. Tri Widodo Wahyu Utomo, SH., MA. 3.Deny Junanto, S.E., M.P.P., Ph.D.",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "PENULIS BAHAN AJAR:",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "Fani Heru Wismono, S.E., M.A., M.A.P. Desy Fajar Lestari, S.AP., M. Han.",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "EDITOR DAN REVIEWER:",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "Antun Nastri Sidik Rahaji K, S.IP., M.Si. Vani Pravita Yuliani, S.KPm., M.Si. Sastia Yunanta Putri, SIA., M.Sc.",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "COVER DAN LAYOUT:",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "Febryan Widi Santoso, S.Pd.",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 3,
+      "content_type": "text",
+      "text": "Jakarta - LAN - 2026 ISBN",
+      "source_ref": "page 3",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 4,
+      "content_type": "text",
+      "text": "KATA PENGANTAR",
+      "source_ref": "page 4",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 4,
+      "content_type": "text",
+      "text": "uji syukur kehadirat Tuhan Yang Maha Esa atas segala rahmat dan karunia-Nya Modul \"Manajemen PPPK\" _____ ____ ____ ini dapat disusun sebagai salah satu bahan pembelajaran dalam penyelenggaraan Orientasi Pegawai Pemerintah dengan Perjanjian Kerja (PPPK). P",
+      "source_ref": "page 4",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 4,
+      "content_type": "text",
+      "text": "_________ merupakan bagian yang tidak terpisahkan dari profesi ASN yang memiliki peran strategis dalam mendukung penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pemberian pelayanan kepada masyarakat. Oleh karena itu, setiap PPPK perlu memahami sistem manajemen PPPK secara utuh sebagai bekal dalam menjalankan tugas dan tanggung jawabnya sebagai ASN.",
+      "source_ref": "page 4",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 4,
+      "content_type": "text",
+      "text": "___Transformasi birokrasi yang terus dilakukan pemerintah menuntut hadirnya Aparatur Sipil Negara (ASN) yang profesional, adaptif, berintegritas, dan berorientasi pada pelayanan publik. Dalam kerangka tersebut, PPPK",
+      "source_ref": "page 4",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 4,
+      "content_type": "text",
+      "text": "___Modul ini disusun untuk memberikan pemahaman dasar mengenai konsep dan siklus manajemen PPPK, mulai dari kedudukan PPPK sebagai bagian dari ASN hingga aspek rekrutmen, perjanjian kerja, penggajian, kinerja, disiplin, penghargaan, perlindungan, dan pemberhentian. Materi disajikan secara sistematis dengan bahasa sederhana, ilustrasi, tabel, dan contoh praktis agar mudah dipahami peserta Orientasi PPPK.",
+      "source_ref": "page 4",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 4,
+      "content_type": "text",
+      "text": "___Kami mengapresiasi seluruh pihak yang telah berkontribusi dalam penyusunan modul ini. Semoga modul ini bermanfaat bagi peserta Orientasi PPPK sebagai referensi untuk membangun ASN yang kompeten, berkarakter, dan berkontribusi bagi organisasi, bangsa, dan negara.",
+      "source_ref": "page 4",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 4,
+      "content_type": "text",
+      "text": "Jakarta, 21 Agustus 2026 Kepala Lembaga Administrasi Negara Republik Indonesia",
+      "source_ref": "page 4",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 4,
+      "content_type": "text",
+      "text": "Dr. Muhammad Taufiq, DEA.",
+      "source_ref": "page 4",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 5,
+      "content_type": "text",
+      "text": "BAB I",
+      "source_ref": "page 5",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 5,
+      "content_type": "text",
+      "text": "PENDAHULUAN",
+      "source_ref": "page 5",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 5,
+      "content_type": "text",
+      "text": "A. Latar Belakang",
+      "source_ref": "page 5",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 5,
+      "content_type": "text",
+      "text": "ndang-Undang Nomor 20 Tahun 2023 menegaskan",
+      "source_ref": "page 5",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 5,
+      "content_type": "text",
+      "text": "kedudukan dan tanggung jawab dalam pelaksanaan",
+      "source_ref": "page 5",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 5,
+      "content_type": "text",
+      "text": "bahwa ASN terdiri atas PNS dan PPPK yang memiliki",
+      "source_ref": "page 5",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 5,
+      "content_type": "text",
+      "text": "___Manajemen PPPK mencakup seluruh siklus hubungan kerja, mulai dari rekrutmen, penempatan, perjanjian kerja, penggajian, kinerja, pengembangan kompetensi, hingga pemberhentian. Pemahaman ini membantu PPPK mengenali hak, kewajiban, dan tanggung jawabnya sebagai ASN.",
+      "source_ref": "page 5",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 5,
+      "content_type": "text",
+      "text": "kebijakan publik, pelayanan masyarakat, serta ______ serta persatuan bangsa. Seiring meningkatnya peran PPPK, pemahaman mengenai manajemen PPPK menjadi penting agar tugas dapat dilaksanakan secara profesional sesuai ketentuan. U",
+      "source_ref": "page 5",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 5,
+      "content_type": "text",
+      "text": "___Modul \"Manajemen PPPK\" disusun sebagai bahan pembelajaran Orientasi PPPK untuk membekali peserta dengan pemahaman dasar manajemen PPPK serta mendorong penerapan integritas, nilai BerAKHLAK, profesionalisme, dan orientasi pelayanan publik.",
+      "source_ref": "page 5",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "B. Deskripsi Singkat",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "___Modul \"Manajemen PPPK\" memberikan pemahaman dasar mengenai konsep, kedudukan, serta siklus manajemen Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) sebagai bagian dari Aparatur Sipil Negara (ASN). Materi dalam modul mencakup pengenalan PPPK, perkembangan kebijakan PPPK di Indonesia, serta berbagai aspek manajemen PPPK, mulai dari rekrutmen, penempatan, perjanjian kerja, sistem penggajian, tunjangan kinerja, penilaian kinerja, perpanjangan perjanjian kerja, disiplin, penghargaan, perlindungan, hingga pemberhentian.",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "C. Hasil Belajar",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "___Setelah mempelajari modul ini,",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "dasar dan siklus manajemen Pegawai",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "peserta mampu memahami konsep",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "Pemerintah dengan Perjanjian Kerja",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "Aparatur Sipil Negara (ASN) sesuai",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "(PPPK), peran PPPK sebagai bagian dari",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "dengan ketentuan peraturan",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "perundang-undangan.",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "D. Indikator Hasil Belajar",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "___Setelah mempelajari modul ini, peserta mampu:",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "2.Menjelaskan perkembangan kebijakan PPPK dalam sistem manajemen ASN di Indonesia.",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "1.Menjelaskan konsep dasar dan kedudukan PPPK sebagai bagian dari Aparatur Sipil Negara (ASN).",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "3.Mengidentifikasi peran PPPK dalam mendukung penyelenggaraan pemerintahan dan pelayanan publik.",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 6,
+      "content_type": "text",
+      "text": "4.Menyebutkan tahapan siklus manajemen PPPK, mulai dari rekrutmen hingga pemberhentian.",
+      "source_ref": "page 6",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 7,
+      "content_type": "text",
+      "text": "MENGENAL PPPK",
+      "source_ref": "page 7",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 7,
+      "content_type": "text",
+      "text": "A. Mengapa Pemerintah Menghadirkan PPPK",
+      "source_ref": "page 7",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 7,
+      "content_type": "text",
+      "text": "BAGAIMANA JIKA PELAYANAN PUBLIK TANPA PPPK?",
+      "source_ref": "page 7",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 7,
+      "content_type": "text",
+      "text": "PPPK hadir untuk memenuhi kebutuhan profesional dan menjaga kontinuitas pelayanan publik.",
+      "source_ref": "page 7",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 7,
+      "content_type": "text",
+      "text": "erubahan kebutuhan masyarakat, perkembangan teknologi, serta semakin kompleksnya tantangan penyelenggaraan pemerintahan menuntut pelayanan publik yang lebih cepat, mudah, transparan, dan _____ berkualitas. Untuk menjawab tantangan tersebut, pemerintah melakukan reformasi manajemen ASN agar lebih adaptif, profesional, dan berorientasi pada kinerja, salah satunya melalui kehadiran PPPK sebagai bagian dari ASN untuk memenuhi kebutuhan organisasi secara fleksibel dengan tetap menerapkan prinsip profesionalisme dan Sistem Merit. P",
+      "source_ref": "page 7",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 7,
+      "content_type": "text",
+      "text": "___Undang-Undang Nomor 20 Tahun 2023 menegaskan bahwa PPPK memiliki fungsi, peran, dan tanggung jawab yang sama dengan PNS dalam penyelenggaraan pemerintahan dan pelayanan publik. Oleh karena itu, setiap PPPK dituntut terus mengembangkan kompetensi, meningkatkan kinerja, dan memberikan kontribusi nyata bagi organisasi, masyarakat, dan pembangunan bangsa.",
+      "source_ref": "page 7",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 8,
+      "content_type": "text",
+      "text": "B. Perjalanan Kebijakan PPPK di Indonesia",
+      "source_ref": "page 8",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 8,
+      "content_type": "text",
+      "text": "___Kebijakan Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) berkembang seiring reformasi birokrasi untuk mewujudkan sistem manajemen ASN yang lebih profesional dan adaptif. PPPK pertama kali diperkenalkan melalui Undang-Undang Nomor 5 Tahun 2014 tentang ASN, kemudian diimplementasikan melalui Peraturan Pemerintah Nomor 49 Tahun 2018 dengan fokus memenuhi kebutuhan tenaga profesional, terutama guru, tenaga kesehatan, dan penyuluh pertanian. Sejak tahun 2021, rekrutmen PPPK diperluas secara signifikan sebagai upaya memenuhi kebutuhan ASN",
+      "source_ref": "page 8",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 8,
+      "content_type": "text",
+      "text": "sekaligus mendukung penataan tenaga non-ASN.",
+      "source_ref": "page 8",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 8,
+      "content_type": "text",
+      "text": "___Penguatan kebijakan PPPK semakin ditegaskan melalui Undang-Undang Nomor 20 Tahun 2023 tentang ASN yang menetapkan PPPK sebagai bagian yang tidak terpisahkan dari profesi ASN, dengan fungsi dan tanggung jawab yang setara dalam memberikan pelayanan publik. Oleh karena itu, setiap PPPK diharapkan tidak hanya menjalankan tugas sesuai perjanjian kerja, tetapi juga menjunjung tinggi integritas, terus mengembangkan kompetensi, berorientasi pada kinerja, dan berkontribusi nyata terhadap pencapaian tujuan organisasi serta pelayanan kepada masyarakat.",
+      "source_ref": "page 8",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 8,
+      "content_type": "text",
+      "text": "Ringkasan Evolusi Kebijakan PPPK di Indonesia",
+      "source_ref": "page 8",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 8,
+      "content_type": "table",
+      "text": "| Tahap Perkembangan   | Periode   | Fokus Kebijakan                                                                                            | Makna bagi PPPK                                                                                                                                                                                                                                    |\n|----------------------|-----------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Tahap Pengenalan     | 2014      | Undang-Undang (UU) Nomor 5 Tahun 2014 tentang Aparatur Sipil Negara (ASN)                                  | UU ini secara resmi mengakui PPPK sebagai bagian sah dari ASN, sejajar dengan Pegawai Negeri Sipil (PNS), serta memberikan kepastian hukum, hak, dan perlindungan kerja yang jelas bagi tenaga kerja pemerintah dengan sistem perjanjian kerja.    |\n| Tahap Implementasi   | 2018-2020 | Peraturan Pemerintah (PP) Nomor 49 Tahun 2018 tentang Manajemen Pegawai Pemerintah dengan Perjanjian Kerja | Landasan hukum utama yang memberikan status resmi kepada PPPK sebagai ASN. Peraturan ini ditetapkan pada 22 November 2018 sebagai dasar hukum bagi pengangkatan, penataan, hak, kewajiban, dan pemberhentian pegawai ASN non-PNS yang profesional. |\n| Tahap Perluasan      | 2021-2022 | Peraturan Presiden Nomor 38 Tahun 2020 tentang Jenis Jabatan yang Dapat Diisi oleh PPPK                    | Aturan ini secara resmi membuka dan memperjelas batasan ruang lingkup karier, menetapkan 147 jenis Jabatan Fungsional (JF) serta Jabatan Pimpinan Tinggi (JPT) tertentu yang sah diduduki oleh PPPK di instansi pemerintah.                        |\n| Tahap Transformasi   | 2023      | UU Nomor 20 Tahun 2023 tentang Aparatur Sipil Negara (ASN)                                                 | UU ini memperkuat kedudukan PPPK sebagai bagian dari profesi ASN. PPPK memiliki kedudukan yang setara dengan PNS sebagai ASN, dengan perbedaan pada mekanisme hubungan kerja.                                                                      |",
+      "source_ref": "page 8",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 8,
+      "content_type": "text",
+      "text": "_____",
+      "source_ref": "page 8",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 10,
+      "content_type": "text",
+      "text": "BAB III",
+      "source_ref": "page 10",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 10,
+      "content_type": "text",
+      "text": "MANAJEMEN PPPK",
+      "source_ref": "page 10",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 10,
+      "content_type": "text",
+      "text": "MEMAHAMI",
+      "source_ref": "page 10",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 10,
+      "content_type": "text",
+      "text": "anajemen Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) merupakan bagian integral dari manajemen Aparatur Sipil Negara (ASN) yang bertujuan mewujudkan aparatur yang profesional, ____ kompeten, berkinerja tinggi, dan mampu mendukung penyelenggaraan pemerintahan serta pelayanan publik. Pengelolaan PPPK tidak hanya mengatur proses pengadaan pegawai, tetapi juga mencakup seluruh siklus hubungan kerja, mulai dari rekrutmen hingga pemberhentian termasuk pemberian penghargaan (reward) yang merupakan bentuk investasi organisasi dalam meningkatkan nilai modal manusia (human capital) ASN. M",
+      "source_ref": "page 10",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 10,
+      "content_type": "text",
+      "text": "___Melalui bab ini, peserta diharapkan memahami siklus manajemen PPPK secara utuh sehingga mampu melaksanakan hak, kewajiban, dan tanggung jawabnya sebagai ASN secara profesional.",
+      "source_ref": "page 10",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 11,
+      "content_type": "text",
+      "text": "A. Rekrutmen",
+      "source_ref": "page 11",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 11,
+      "content_type": "text",
+      "text": "___Rekrutmen merupakan tahapan awal dalam manajemen PPPK yang bertujuan memperoleh pegawai sesuai dengan kebutuhan organisasi berdasarkan prinsip Sistem Merit. Dalam perspektif manajemen sumber daya manusia sektor publik, rekrutmen bukan sekadar proses mengisi formasi yang kosong, melainkan proses memperoleh sumber daya manusia yang memiliki kompetensi, integritas, dan kualifikasi yang sesuai dengan kebutuhan jabatan. Dasar hukum pengadaan PPPK diatur dalam UU Nomor 20 Tahun 2023 tentang",
+      "source_ref": "page 11",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 11,
+      "content_type": "text",
+      "text": "ASN, yang menegaskan bahwa pengelolaan ASN dilaksanakan berdasarkan Sistem Merit. Saat ini penjabaran mengenai pengelolaan PPPK secara umum masih diatur dalam PP Nomor 49 Tahun 2018, khususnya mengenai perencanaan kebutuhan, pengadaan, seleksi, dan pengangkatan PPPK.",
+      "source_ref": "page 11",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 11,
+      "content_type": "text",
+      "text": "___Pengadaan PPPK diawali dengan penyusunan kebutuhan pegawai berdasarkan Analisis Jabatan (Anjab)",
+      "source_ref": "page 11",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 11,
+      "content_type": "text",
+      "text": "kemudian dilanjutkan dengan proses",
+      "source_ref": "page 11",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 11,
+      "content_type": "text",
+      "text": "dan Analisis Beban Kerja (ABK),",
+      "source_ref": "page 11",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 11,
+      "content_type": "text",
+      "text": "seleksi yang dilaksanakan secara objektif, transparan, kompetitif, adil, dan bebas dari praktik korupsi, kolusi, serta nepotisme. Melalui mekanisme tersebut diharapkan pemerintah memperoleh pegawai yang mampu mendukung pencapaian sasaran organisasi secara optimal. Alur proses rekrutmen bisa dicermati dari gambar berikut ini:",
+      "source_ref": "page 11",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "B. Penempatan",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "___Penempatan PPPK merupakan proses penugasan pegawai pada jabatan tertentu sesuai hasil seleksi dan kebutuhan organisasi. Penempatan dilaksanakan berdasarkan kesesuaian antara kompetensi pegawai dengan persyaratan jabatan sehingga prinsip the right person in the right position dapat diwujudkan.",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "___PPPK ditempatkan sesuai jabatan yang ditetapkan dalam keputusan pengangkatan dan perjanjian kerja. Penempatan yang tepat akan meningkatkan efektivitas organisasi sekaligus mendukung pencapaian target kinerja instansi. Berikut ilustrasi untuk memudahkan dalam memahami penempatan PPPK di unit kerja:",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Setiap PPPK ditempatkan pada unit kerja tertentu sesuai kebutuhan organisasi dann  i    nn    lik",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "1. INSTANSI PEMERINTAH",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "(Kementerian/Lembaga/ Pemerintah Daerah)",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Menetapkan kebijakan, tujuan, dan program pembangunan serta pelayanan publik.",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "2. UNIT KERJA",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Contoh Instansi:",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Badan Kepegawaian Negara",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Dinas Pendidikan Kabupaten/Kota",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Rumah Sakit Umum Daerah",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Contoh Unit Kerja:",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "(Eselon/Bagian/Bidang/UPT)",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Unit organisasi yang menjalankan sebagian tugas dan fungsi instansi. Unit kerja menjadi tempat PPPK melaksanakan tugas sehari-hari.",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "3. JABATAN PPPK (Fungsional/Keahlian)",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "PPPK diangkat dalam jabatan tertentu sesuai keahlian dan kompetensi untuk melaksanakan tugas dan fungsi pada unit kerja.",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "4. PELAKSANAAN TUGAS DAN KINERJA",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "PPPK melaksanakan tugas sesuai uraian jabatan, mencapai target kinerja, bekerja sama dalam tim, dan memberikan pelayanan publik yang berkualitas.",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "PESAN UTAMA",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "UNIT KERJA",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Direktorat Pembelajaran dan Kemahasiswaan",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "SMP Negeri 8 Bandung",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Puskesmas Kecamatan Sukasari",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Bidang Perencanaan Dinas Pendidikan",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Contoh Jabatan PPPK:",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Guru Bahasa Indonesia Ahli Pertama",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Perawat Ahli Pertama",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Analis Kebijakan Ahli Pertama",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Pranata Komputer Ahli Pertama",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Arsiparis Ahli Pertama",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "JABATAN",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "menunjukkan di mana PPPK ditempatkan.",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "menunjukkan apa pekerjaan dan tanggung jawab PPPK.",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 12,
+      "content_type": "text",
+      "text": "Ketiga unsur ini saling berkaitan agar setiap PPPK memiliki peran yang jelas dalam mondukung tujuan organisasi dan memborikan pelayanan publik yang terbaik.",
+      "source_ref": "page 12",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 13,
+      "content_type": "text",
+      "text": "C. Perjanjian Kerja",
+      "source_ref": "page 13",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 13,
+      "content_type": "text",
+      "text": "___Perjanjian kerja merupakan dasar hubungan hukum antara PPPK dan instansi pemerintah. Berbeda dengan PNS yang diangkat sebagai pegawai tetap, PPPK melaksanakan tugas berdasarkan perjanjian kerja yang disepakati oleh kedua belah pihak.",
+      "source_ref": "page 13",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 13,
+      "content_type": "text",
+      "text": "_______",
+      "source_ref": "page 13",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 13,
+      "content_type": "text",
+      "text": "___Substansi mengenai perjanjian kerja setidaknya mengatur tentang: jangka waktu hubungan kerja, hak dan kewajiban para pihak, serta mekanisme perpanjangan maupun pemutusan hubungan kerja. Perjanjian kerja memberikan kepastian hukum baik bagi PPPK maupun instansi pemerintah dalam melaksanakan hak dan kewajibannya.",
+      "source_ref": "page 13",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 13,
+      "content_type": "text",
+      "text": "___Berikut adalah matriks informasi mengenai perjanjian kerja untuk memudahkan pemahaman bagi PPPK:",
+      "source_ref": "page 13",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 13,
+      "content_type": "text",
+      "text": "Informasi Perjanjian Kerja PPPK",
+      "source_ref": "page 13",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 13,
+      "content_type": "table",
+      "text": "| Aspek                            | Penjelasan                                                                                                                                                                                                                                                                                                                                    |\n|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Perjanjian Kerja PPPK            | Perjanjian kerja merupakan dasar hubungan kerja antara PPPK dengan instansi pemerintah yang mengatur hak, kewajiban, masa kerja, serta target kinerja selama menjalankan tugas sebagai ASN.                                                                                                                                                   |\n| Masa Perjanjian Kerja            | Masa perjanjian kerja PPPK ditetapkan antara 1 (satu) tahun hingga 5 tahun dan dapat diperpanjang sesuai kebutuhan instansi dan ketentuan peraturan perundang-undangan. Khusus PPPK Paruh Waktu, masa perjanjian kerja ditetapkan selama 1 (satu) tahun.                                                                                      |\n| Perpanjangan Perjanjian Kerja    | Perpanjangan tidak dilakukan secara otomatis. Instansi akan mempertimbangkan hasil evaluasi kinerja, disiplin, kebutuhan jabatan, serta ketersediaan anggaran sebelum memutuskan perpanjangan perjanjian kerja.                                                                                                                               |\n| Pemutusan Perjanjian Kerja       | Perjanjian kerja dapat berakhir sebelum masa berlakunya apabila PPPK mengundurkan diri, melakukan pelanggaran disiplin sesuai ketentuan, tidak lagi memenuhi persyaratan jabatan, memperoleh hasil evaluasi kinerja yang tidak memenuhi standar secara berkelanjutan, atau karena alasan lain yang diatur dalam peraturan perundang-undangan. |\n| Penandatanganan Perjanjian Kerja | Setelah dinyatakan lulus seleksi dan memperoleh Nomor Induk PPPK, calon PPPK menandatangani perjanjian kerja sebagai dasar pengangkatan menjadi PPPK. Pada instansi yang telah menerapkan layanan digital, proses administrasi dapat dilakukan melalui sistem informasi kepegawaian yang terintegrasi.                                        |\n| Data dan Riwayat Kepegawaian     | PPPK dapat melihat informasi kepegawaiannya, seperti Nomor Induk PPPK, Surat Keputusan Pengangkatan, masa berlaku perjanjian kerja, serta data kepegawaian lainnya melalui aplikasi MyASN dari BKN atau sistem informasi kepegawaian yang digunakan oleh instansinya.                                                                         |",
+      "source_ref": "page 13",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 14,
+      "content_type": "text",
+      "text": "D. Sistem Penggajian",
+      "source_ref": "page 14",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 14,
+      "content_type": "text",
+      "text": "___Sebagai bagian dari ASN, PPPK berhak memperoleh penghasilan yang layak sesuai beban kerja, tanggung jawab jabatan, dan ketentuan peraturan perundang-undangan. Sistem penggajian disusun sebagai bentuk penghargaan atas pelaksanaan tugas sekaligus untuk menjaga kesejahteraan pegawai.",
+      "source_ref": "page 14",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 14,
+      "content_type": "text",
+      "text": "___Hak atas gaji bagi PPPK ditegaskan dalam UU Nomor 20 Tahun 2023, sedangkan pengaturan teknis mengenai pemberian gaji diatur lebih lanjut dalam Peraturan Presiden (Perpres) Nomor 11 Tahun 2024, yang diterbitkan sebagai perubahan atas Perpres Nomor 98 Tahun 2020 tentang Gaji dan Tunjangan PPPK. Secara sederhana skema sistem penggajian sesuai peraturan tersebut bisa dilihat sebagai berikut:",
+      "source_ref": "page 14",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 14,
+      "content_type": "table",
+      "text": "|    |                           | Sistem Penggajian PPPK                                                                                                     | Sistem Penggajian PPPK                                                                                              |\n|----|---------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|\n|    | Komponen                  | Penjelasan                                                                                                                 | Dasar Penetapan                                                                                                     |\n| Rp | Gaji Pokok                | Penghasilan utama yang diterima PPPK setiap bulan.                                                                         | Ditetapkan berdasarkan golongan jabatan dan Masa Kerja Golongan (MKG) sesuai Perpres Nomor 11 Tahun 2024.           |\n|    | Golongan                  | Menunjukkan tingkat jabatan PPPK.                                                                                          | PPPK ditempatkan pada Golongan I sampai dengan Golongan XVII sesuai kualifikasi jabatan dan ketentuan yang berlaku. |\n|    | Masa Kerja Golongan (MKG) | Masa kerja yang diakui dalam penetapan gaji.                                                                               | Semakin tinggi MKG, semakin besar gaji pada golongan yang sama.                                                     |\n|    | Pembayaran Gaji           | Gaji dibayarkan setiap bulan setelah PPPK diangkat dan mulai melaksanakan tugas.                                           | Dilaksanakan oleh instansi pemerintah sesuai mekanisme pembayaran gaji ASN.                                         |\n|    | Kenaikan Gaji             | Besaran gaji mengikuti tabel gaji nasional sesuai golongan dan MKG.                                                        | Mengacu pada ketentuan pemerintah yang berlaku.                                                                     |\n|    | Tunjangan                 | Selain gaji, PPPK dapat memperoleh tunjangan sesuai peraturan, seperti tunjangan kinerja pada instansi yang menerapkannya. | Sesuai kebijakan pemerintah dan instansi masing-masing.                                                             |",
+      "source_ref": "page 14",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 14,
+      "content_type": "text",
+      "text": "E. Tunjangan Kinerja",
+      "source_ref": "page 14",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 14,
+      "content_type": "text",
+      "text": "___Selain menerima gaji, PPPK juga dapat memperoleh Tunjangan Kinerja (Tukin) apabila instansi tempat bekerja telah menerapkan sistem tunjangan kinerja sesuai ketentuan yang berlaku. Tunjangan kinerja merupakan tambahan penghasilan yang diberikan sebagai bentuk penghargaan atas kinerja pegawai dan pencapaian tujuan organisasi. Besaran tunjangan kinerja setiap instansi dapat berbeda karena ditetapkan berdasarkan kebijakan pemerintah serta kemampuan keuangan negara atau daerah.",
+      "source_ref": "page 14",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 14,
+      "content_type": "text",
+      "text": "___Berbeda dengan gaji yang diterima secara tetap sesuai golongan dan ketentuan yang berlaku, tunjangan kinerja sangat dipengaruhi oleh hasil kerja pegawai. Oleh karena itu, setiap PPPK perlu memahami bahwa tunjangan kinerja bukan hanya hak, tetapi juga berkaitan dengan tanggung jawab untuk menunjukkan kinerja yang baik.",
+      "source_ref": "page 14",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 14,
+      "content_type": "text",
+      "text": "___Secara umum, terdapat beberapa faktor yang menjadi dasar pemberian tunjangan kinerja, yaitu:",
+      "source_ref": "page 14",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "F. Penilaian Kinerja",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "___Pengelolaan kinerja merupakan salah satu aspek penting dalam manajemen PPPK karena menjadi dasar pembinaan pegawai, pemberian penghargaan, pengembangan kompetensi, serta pertimbangan perpanjangan hubungan kerja.",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "___Pengelolaan kinerja dilakukan melalui beberapa tahapan, yaitu:",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "___Undang-Undang Nomor 20 Tahun 2023 menegaskan bahwa setiap ASN dikelola berdasarkan kinerja sebagai implementasi Sistem Merit. Pengaturan lebih rinci mengenai pengelolaan kinerja diatur dalam PermenPANRB Nomor 6 Tahun 2022 tentang Pengelolaan Kinerja Pegawai ASN, yang mengubah paradigma penilaian kinerja dari sekadar evaluasi tahunan menjadi proses yang berlangsung secara berkelanjutan.",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "1.perencanaan kinerja (yang meliputi penetapan dan klarifikasi ekspektasi);",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "3.penilaian kinerja pegawai yang meliputi evaluasi kinerja pegawai;",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "2.pelaksanaan, pemantauan, dan pembinaan kinerja pegawai yang meliputi pendokumentasian kinerja, pemberian umpan balik berkelanjutan, dan pengembangan kinerja pegawai;",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "4.tindak lanjut hasil evaluasi kinerja selanjutnya menjadi dasar dalam pemberian penghargaan, pembinaan pegawai, serta penyusunan kebutuhan pengembangan kompetensi (reward & punishment).",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "___Hasil penilaian kinerja tidak hanya digunakan untuk mengukur keberhasilan pegawai dalam mencapai target kerja, tetapi juga menjadi dasar dalam penyusunan rencana pengembangan kompetensi. Sebagai PPPK, terdapat beberapa hal yang perlu dilakukan agar memperoleh penilaian kinerja yang baik, antara lain:",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "Menyelesaikan pekerjaan tepat waktu dengan kualitas yang baik.",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "Menyusun dan melaksanakan Sasaran Kinerja Pegawai (SKP) sesuai target yang disepakati.",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "Menjaga disiplin kehadiran dan mematuhi jam kerja.",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "Aktif berkolaborasi dan memberikan kontribusi terhadap pencapaian target organisasi.",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "Menerapkan nilai-nilai dasar ASN BerAKHLAK dalam bekerja.",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 15,
+      "content_type": "text",
+      "text": "Melakukan dialog kinerja secara berkala dengan atasan untuk memperoleh umpan balik dan perbaikan kinerja.",
+      "source_ref": "page 15",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "G. Perpanjangan Perjanjian Kerja",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "___Hubungan kerja PPPK dilaksanakan berdasarkan jangka waktu yang ditetapkan dalam perjanjian kerja. Perpanjangan perjanjian kerja tidak dilakukan secara otomatis. Setiap PPPK akan dievaluasi terlebih dahulu sebelum instansi memutuskan untuk memperpanjang masa perjanjian kerjanya. Jika memenuhi penilaian evaluasinya, instansi pemerintah dapat",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "__",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "___Berdasarkan PP Nomor 49 Tahun 2018, perpanjangan perjanjian kerja mempertimbangkan kebutuhan jabatan, ketersediaan anggaran, serta hasil evaluasi kinerja PPPK. Oleh karena itu, kinerja yang baik menjadi salah satu faktor penting dalam keberlanjutan hubungan kerja PPPK.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "PERPANJANGAN PERJANJIAN KERJA PPPK",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Bukan Otomatis, Berdasarkan Kinerja dan Kebutuhan Organisasi",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Perpanjangan perjanjian kerja PPPK dilakukan setelah instansi melakukan evaluasi menyeluruh untuk memastikan bahwa PPPK terus memberikan kontribusi terbaik bagi organisasi dan pelayanan publik.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "melakukan perpanjangan perjanjian kerja sesuai kebutuhan organisasi.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "FAKTOR PENENTU PERPANJANGAN PERJANJIAN KERJA",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "02",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "03",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "04",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "ALUR PERPANJANGAN PERJANJIAN KERJA",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "05",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "KINERJA YANG BAIK",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "PPPK harus mencapal target kinerja sesual ekspektasi organisasi. Kinerja menjadi pertimbangan utama dalam perpanjangan perjanjian kerja.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "DISIPLIN DAN INTEGRITAS",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Kepatuhan terhadap jam kerja, peraturan, kode etik, dan nilai dasar ASN BerAKHLAK menjadi bagian penting dalam evaluasi perpanjangan.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "JABATAN MASIH DIBUTUHKAN",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Perpanjangan dilakukan apabila jabatan yang diemban masih diporlukan sesuai kebutuhan organisosi dan perencanaan pogawai.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "TERSEDIA ANGGARAN",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "anggaran untuk membiayai jabatan PPPK Instansl harus momastikan ketersedlaan yang akan diperpanjang",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "MEMENUHI PERSYARATAN",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "PPPK momenuhi porsyaratan sesual ketentuan peraturan perundang-undangan yang berlaku.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "RINGKASAN 5 FAKTOR UTAMA",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Kinerja yang baik dan Disiplín integritas masih Jabatan dibutuhkan",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "1. MENDEKATI AKHIR MASA PERJANJIAN",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Instangi mempersiapkan prosos evaluasi sobolum mase porjanjian korja borakhir.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "2. EVALUASI MENYELURUH",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Dilakukon ponilaian kinorja, disiplin, kebutuhan jabatan, serta ketorsediaan anggoran.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "3. REKOMENDASI PERPANJANGAN",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Apabila memonuhi kriteria, unit kerja memberikan rekomendasi kepada Pejabat Pambina Kopogowaion (PPK).",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "4. KEPUTUSAN PERPANJANGAN",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "PPK monetapkan perpanjangan perjanjian kerja sesuai ketontuon.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "5. PENANDATANGANAN PERJANJIAN KERJA",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "PPPK monandatangani porjanjian kerja baru socara digital melalul portal rosml.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "TIPS UNTUK PPPK",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Pahami don capal targot kinorja yang telah ditotapkan.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Jaga disiplin, intogritas, dan porilaku kerja positif.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Tingkatkan kompetensi secara berkelanjutan.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Borkontribusi aktif dalam mendukung tujuan organisasi.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Tersedis anggaran Memenuhi persyaratan",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Perpanjangan perjanjian kerja adalah bentuk keporcayaan organisasi atas kinerja dan kontribusi Anda.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 16,
+      "content_type": "text",
+      "text": "Teruslah bekerja profesional, berintegritas. dan momborikan poleyanan terbaik untuk bangsa dan nogara.",
+      "source_ref": "page 16",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "H. Disiplin",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "___Sebagai ASN, PPPK wajib menjunjung tinggi integritas, menaati peraturan perundang-undangan, mematuhi kode etik dan kode perilaku ASN, serta melaksanakan tugas secara jujur, bertanggung jawab, dan profesional. Prinsip tersebut ditegaskan dalam UU Nomor 20 Tahun 2023, sedangkan pembinaan disiplin menjadi bagian dari manajemen PPPK sebagaimana diatur dalam PP Nomor 49 Tahun 2018. Penerapan disiplin merupakan bagian dari tanggung jawab organisasi dalam menjaga konsistensi nilai, integritas, dan perilaku pegawai.",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "___Disiplin kerja adalah kesanggupan PPPK untuk menaati kewajiban dan menghindari larangan yang ditetapkan dalam peraturan perundang-undangan serta ketentuan yang berlaku di instansi tempat bekerja. Disiplin merupakan bagian dari profesionalisme ASN dan menjadi salah satu indikator dalam penilaian kinerja pegawai. Sebagai PPPK, disiplin kerja dapat diwujudkan dalam berbagai perilaku berikut:",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "__",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "___Disiplin kerja memberikan manfaat, baik bagi pegawai maupun organisasi. Bagi PPPK, disiplin akan membantu:",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "Mendukung pencapaian target kinerja.",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "Meningkatkan kepercayaan atasan dan rekan kerja.",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "Menjadi salah satu pertimbangan dalam evaluasi dan perpanjangan perjanjian kerja.",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "___Sementara itu, manfaat disiplin bagi organisasi adalah:",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "Menciptakan lingkungan kerja yang tertib dan profesional.",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "Meningkatkan produktivitas kerja.",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "Meningkatkan kualitas pelayanan publik.",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "Mempercepat pencapaian target organisasi.",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "Membangun citra positif instansi pemerintah.",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "___PPPK yang tidak mematuhi ketentuan disiplin dapat dikenai tindakan sesuai peraturan yang berlaku. Bentuk pelanggaran disiplin, misalnya:",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "tidak masuk kerja tanpa alasan yang sah;",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "sering terlambat masuk kerja;",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "tidak menyelesaikan tugas sesuai dengan tanggung jawab;",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "melanggar kode etik atau ketentuan instansi.",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "menyalahgunakan wewenang;",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 17,
+      "content_type": "text",
+      "text": "___Pelanggaran disiplin dapat berdampak pada penilaian kinerja, pemberian penghargaan, hingga menjadi salah satu pertimbangan dalam evaluasi perpanjangan perjanjian kerja atau pemberhentian sesuai ketentuan peraturan perundangundangan.",
+      "source_ref": "page 17",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "I. Penghargaan",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "___Penghargaan merupakan bentuk apresiasi atas kinerja, disiplin, dan kontribusi nyata kepada organisasi. Oleh karena itu, setiap PPPK perlu bekerja secara profesional, menjaga integritas, menerapkan nilai-nilai dasar ASN BerAKHLAK, serta terus meningkatkan kompetensi agar dapat memberikan pelayanan publik yang terbaik.",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "Bentuk Penghargaa",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "Pengakuan atas K",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "Kesempatan",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "Pengembangan Ko",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "Penghargaan dari",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "Penugasan yang Lebih Strategis",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "Perpanjangan Perjanjian Kerja PPPK yang memiliki kompetensi dan kinerja baik dapat dipercaya untuk menangani tugas atau proyek yang lebih menantang sesuai kebutuhan organisasi.",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "Hasil evaluasi kinerja yang baik menjadi salah satu pertimbangan dalam perpanjangan perjanjian kerja sesuai ketentuan yang berlaku.",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "J. Perlindungan",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "___Dalam melaksanakan tugasnya, PPPK berhak memperoleh perlindungan dari negara. Perlindungan tersebut meliputi perlindungan hukum, jaminan kesehatan, jaminan kecelakaan kerja, jaminan kematian, serta bentuk perlindungan lain sesuai ketentuan peraturan perundang-undangan.",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "___Meskipun perlindungan merupakan salah satu hak PPPK sebagai ASN, hal tersebut harus diimbangi dengan pelaksanaan tugas yang profesional, disiplin, dan sesuai peraturan. Dengan bekerja secara bertanggung jawab, PPPK tidak hanya melindungi dirinya sendiri, tetapi juga menjaga kepercayaan masyarakat terhadap pelayanan publik yang diberikan.",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "Bentuk Perlindungan Bagi PPPK",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "table",
+      "text": "|                    | Jenis Perlindungan Jaminan Kesehatan              | Penjelasan PPPK memperoleh perlindungan kesehatan melalui program Jaminan Kesehatan Nasional (JKN) sesuai ketentuan yang berlaku.                           |\n|--------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|\n|                    | Jaminan Kecelakaan Kerja (JKK)                    | Memberikan perlindungan apabila PPPK mengalami kecelakaan saat menjalankan tugas atau akibat pekerjaan.                                                     |\n|                    | Jaminan Kematian (JKM)                            | Diberikan kepada ahli waris apabila PPPK meninggal dunia sesuai ketentuan program jaminan sosial.                                                           |\n| <!-- rich cell --> | Bantuan Hukum                                     | PPPK berhak memperoleh bantuan hukum apabila menghadapi permasalahan hukum yang berkaitan dengan pelaksanaan tugas kedinasan sesuai ketentuan yang berlaku. |\n|                    | Perlindungan Keselamatan dan Kesehatan Kerja (K3) | Instansi berkewajiban menyediakan lingkungan kerja yang aman, sehat, dan mendukung pelaksanaan tugas.                                                       |",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 18,
+      "content_type": "text",
+      "text": "中",
+      "source_ref": "page 18",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "K. Pemberhentian",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "instansi",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "1. Berakhir secara normal",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "___Pemberhentian merupakan berakhirnya hubungan kerja antara PPPK dengan pemerintah. Pemberhentian dilakukan berdasarkan alasan yang diatur dalam peraturan perundang-undangan, sebagaimana pengelompokan sebagai berikut:",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "masa perjanjian kerja berakhir",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "meninggal dunia",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "pensiun jabatan",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "2. Atas permintaan sendiri",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "3. Karena organisasi",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "mengundurkan diri",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "perampingan organisasi",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "4. Karena pelanggaran",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "perubahan kebijakan",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "pelanggaran disiplin berat",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "menjadi anggota partai politik",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "pidana",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "tidak mampu bekerja",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "pelanggaran terhadap Pancasila/UUD 1945",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "tidak berkinerja",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "PUHNKT",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "___Pemberhentian merupakan bagian dari siklus manajemen PPPK yang diatur oleh peraturan perundang-undangan.",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "pemberhentian dapat dihindari dengan",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "Sebagian besar penyebab",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "menjaga kinerja, disiplin, integritas, dan",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "PPPK perlu memahami hak dan kewajibannya agar dapat terus memberikan kontribusi terbaik bagi organisasi dan masyarakat.",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 19,
+      "content_type": "text",
+      "text": "profesionalisme. Oleh karena itu, setiap",
+      "source_ref": "page 19",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 20,
+      "content_type": "text",
+      "text": "BAB IV",
+      "source_ref": "page 20",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 20,
+      "content_type": "text",
+      "text": "enjadi Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) merupakan amanah sebagai bagian dari Aparatur Sipil Negara (ASN) yang memiliki kedudukan, fungsi, dan tanggung jawab setara dengan PNS dalam _ menjalankan kebijakan publik, pelayanan masyarakat, dan perekat bangsa. Pengelolaan PPPK mencakup seluruh siklus masa kerja, mulai dari rekrutmen, penempatan, hak dan kewajiban, pengembangan kompetensi, penilaian kinerja, hingga pengakhiran hubungan kerja sesuai ketentuan. M",
+      "source_ref": "page 20",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 20,
+      "content_type": "text",
+      "text": "PENUTUP",
+      "source_ref": "page 20",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 20,
+      "content_type": "text",
+      "text": "___Untuk mendukung keberhasilan transformasi birokrasi Indonesia yang profesional, adaptif, dan berorientasi kinerja, setiap PPPK dituntut menjunjung tinggi integritas, disiplin, serta nilai-nilai dasar ASN BerAKHLAK. Keberhasilan PPPK tidak hanya diukur dari kelulusan seleksi, melainkan dari komitmen untuk terus belajar, beradaptasi, berkolaborasi, dan memberikan kontribusi nyata dalam menghadirkan pelayanan publik yang berkualitas.",
+      "source_ref": "page 20",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "REFERENSI",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "Denhardt, J. V., Denhardt, R. B., & Blanc, T. A. (2022). Public Administration: An Action Orientation (8th ed.). Cengage Learning.",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "Indonesia. (2023). Undang-Undang Nomor 20 Tahun 2023 tentang Aparatur Sipil Negara. Lembaran Negara Republik Indonesia Tahun 2023 Nomor 141.",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "Indonesia. (2024). Peraturan Presiden Nomor 11 Tahun 2024 tentang Perubahan atas Peraturan Presiden Nomor 98 Tahun 2020 tentang Gaji dan Tunjangan Pegawai Pemerintah dengan Perjanjian Kerja.",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "Indonesia. (2018). Peraturan Pemerintah Nomor 49 Tahun 2018 tentang Manajemen Pegawai Pemerintah dengan Perjanjian Kerja. Lembaran Negara Republik Indonesia Tahun 2018 Nomor 224.",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "Indonesia. (2022). Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Nomor 6 Tahun 2022 tentang Pengelolaan Kinerja Pegawai Aparatur Sipil Negara.",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "Lembaga Administrasi Negara. (2021). Modul Pelatihan Dasar Calon Pegawai Negeri Sipil: Manajemen ASN. LAN RI.",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "Lembaga Administrasi Negara. (2022). Modul Pelatihan Dasar CPNS: BerAKHLAK. LAN RI.",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "Employment and Management 2020. OECD Publishing.",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "Organisation for Economic Co-operation and Development. (2020). Public",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "Pollitt, C., & Bouckaert, G. (2017). Public Management Reform: A Comparative Analysis",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "into the Age of Austerity (4th ed.). Oxford University Press.",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "World Bank. (2020). Bureaucracy Lab: Improving Public Sector Performance. World",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 21,
+      "content_type": "text",
+      "text": "Bank.",
+      "source_ref": "page 21",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 22,
+      "content_type": "text",
+      "text": "TAE!",
+      "source_ref": "page 22",
+      "needs_check": false,
+      "chunk_id": null
+    },
+    {
+      "material_id": "Manajemen pppk",
+      "document_name": "Manajemen pppk.pdf",
+      "page": 22,
+      "content_type": "text",
+      "text": "山山山",
+      "source_ref": "page 22",
+      "needs_check": false,
+      "chunk_id": null
+    }
+  ]
+}

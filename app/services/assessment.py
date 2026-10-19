@@ -13,7 +13,8 @@ from app.schemas.response import (
     CriterionResult,
     RawEvaluation,
 )
-from app.services.llm_evaluator import EvaluatorClient, InvalidModelOutput, evaluate
+from app.services.llm_client import ProviderRequestError
+from app.services.llm_evaluator import EvaluatorClient, EvaluatorNotConfigured, InvalidModelOutput, evaluate
 from app.services.material_retriever import RetrievedChunk, retrieve_materials
 from app.services.scoring import score_assessment
 
@@ -95,6 +96,10 @@ def assess_journal(
         except InvalidModelOutput:
             response = _review_response(assessment_id, criteria, passing_score, "invalid_model_output")
             logger.info("assessment_id=%s status=%s error=invalid_model_output duration_ms=%d", assessment_id, response.status, int((perf_counter() - started) * 1000))
+            return response
+        except (EvaluatorNotConfigured, ProviderRequestError):
+            response = _review_response(assessment_id, criteria, passing_score, "evaluator_unavailable")
+            logger.info("assessment_id=%s status=%s error=evaluator_unavailable duration_ms=%d", assessment_id, response.status, int((perf_counter() - started) * 1000))
             return response
         scoring_chunks = [
             {

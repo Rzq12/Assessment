@@ -44,6 +44,36 @@ def score_assessment(
         ):
             verified_evidence.append(evidence)
 
+    review_reasons = []
+    if not verified_evidence:
+        review_reasons.append("Tidak ada bukti yang cocok dengan materi sumber.")
+    if any(not criterion.evidence_sufficient for criterion in raw.criteria):
+        review_reasons.append("Bukti untuk satu atau lebih kriteria tidak cukup.")
+    if review_reasons:
+        return AssessmentResponse(
+            assessment_id=assessment_id or f"ASM-{uuid4().hex[:12].upper()}",
+            status=AssessmentStatus.NEEDS_REVIEW,
+            score=0,
+            passing_score=passing_score,
+            summary="Penilaian otomatis belum dapat diselesaikan.",
+            criteria=[
+                CriterionResult(
+                    criterion_id=criterion.criterion_id,
+                    name=criterion.name,
+                    weight=criterion.weight,
+                    score=0,
+                    weighted_score=0,
+                    feedback="Belum dinilai.",
+                )
+                for criterion in criteria
+            ],
+            evidence=verified_evidence,
+            strengths=[],
+            improvements=[],
+            review_required=True,
+            review_reason=" ".join(review_reasons),
+        )
+
     results = [
         CriterionResult(
             criterion_id=criterion.criterion_id,
@@ -56,21 +86,11 @@ def score_assessment(
         for criterion in raw.criteria
     ]
     final_score = round(sum(result.weighted_score for result in results), 2)
-    review_reasons = []
-    if not verified_evidence:
-        review_reasons.append("Tidak ada bukti yang cocok dengan materi sumber.")
-    if any(not criterion.evidence_sufficient for criterion in raw.criteria):
-        review_reasons.append("Bukti untuk satu atau lebih kriteria tidak cukup.")
-
-    if review_reasons:
-        status = AssessmentStatus.NEEDS_REVIEW
-        review_reason = " ".join(review_reasons)
-    elif final_score >= passing_score:
+    if final_score >= passing_score:
         status = AssessmentStatus.PASS
-        review_reason = None
     else:
         status = AssessmentStatus.NOT_PASS
-        review_reason = None
+    review_reason = None
 
     return AssessmentResponse(
         assessment_id=assessment_id or f"ASM-{uuid4().hex[:12].upper()}",

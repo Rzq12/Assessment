@@ -34,7 +34,9 @@ Fase 2 menyediakan kontrak Pydantic versi `1.0`, konfigurasi kriteria di `app/co
 
 Jalankan pengujian dengan `python -m pytest -q`. Tahap 4 menambahkan retrieval kata sederhana, orkestrasi evaluasi, dan tampilan hasil JSON. Retrieval tanpa `material_id` hanya memilih materi dengan skor yang cukup dan membedakan kandidat terbaik; jika tidak yakin hasilnya `needs_review`. Bila `material_id` tersedia, hanya potongan dari materi itu yang dipakai. Cache materi dibaca dari `PROCESSED_DIR` (default `material_cache`).
 
-Evaluator saat ini hanya memiliki kontrak provider-netral dan mock untuk pengujian; adapter provider nyata belum dipilih atau dikonfigurasi. Tanpa provider, model, dan API key, aplikasi menampilkan mesin penilaian belum tersedia dan tidak mengarang hasil. Variabel yang akan digunakan: `LLM_PROVIDER`, `LLM_MODEL`, `LLM_API_KEY`, dan `LLM_TIMEOUT_SECONDS` (default 60). Unit test berjalan tanpa jaringan/API key. Evaluasi dengan provider nyata belum diverifikasi.
+Evaluator menggunakan endpoint OpenAI-compatible yang dikonfigurasi melalui `LLM_PROVIDER`, `LLM_BASE_URL`, `LLM_MODEL`, `LLM_API_KEY`, dan `LLM_TIMEOUT_SECONDS` (default 60). Sebelum setiap penilaian, aplikasi menjelaskan bahwa jurnal dan kutipan relevan dari Docs Materi yang dipilih akan dikirim ke `https://9router.riezqidr.my.id/v1`. Pengguna harus mencentang persetujuan pada pengiriman yang sama; tanpa persetujuan, aplikasi tidak memanggil layanan penilaian. Tanpa konfigurasi evaluator yang siap, aplikasi menyatakan penilaian belum tersedia dan tidak mengarang hasil.
+
+Hasil bersifat bantuan model, bukan jaminan kebenaran. Backend memvalidasi kutipan terhadap materi yang diambil. Jika evaluasi tidak dapat diselesaikan atau bukti tidak valid, hasil memerlukan tinjauan dan tidak menampilkan skor atau unduhan hasil. Unit test berjalan tanpa jaringan/API key.
 
 ## Pemrosesan materi fase 3
 

@@ -1,6 +1,10 @@
 import os
 
 DEFAULT_MAX_JOURNAL_CHARACTERS = 20_000
+DEFAULT_LLM_PROVIDER = "openai-compatible"
+DEFAULT_LLM_BASE_URL = "https://9router.riezqidr.my.id/v1"
+DEFAULT_LLM_MODEL = "cx/gpt-6-luna"
+DEFAULT_LLM_TIMEOUT_SECONDS = 60
 
 
 def get_max_journal_characters() -> int:

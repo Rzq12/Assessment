@@ -4,6 +4,11 @@
 !README.md
 !**/README.md
 
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
 # Cache files and directories
 __pycache__/
 *.py[cod]

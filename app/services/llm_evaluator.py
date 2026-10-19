@@ -1,8 +1,20 @@
 import json
-from collections.abc import Callable, Sequence
+import math
+import os
+from pathlib import Path
+from collections.abc import Sequence
 from typing import Any, Protocol
 
+from app.core.config import (
+    DEFAULT_LLM_BASE_URL,
+    DEFAULT_LLM_MODEL,
+    DEFAULT_LLM_PROVIDER,
+    DEFAULT_LLM_TIMEOUT_SECONDS,
+)
+from app.services.llm_client import OpenAICompatibleClient
+
 from pydantic import ValidationError
+from dotenv import load_dotenv
 
 from app.core.criteria import CriterionConfig
 from app.schemas.material import MaterialChunk
@@ -21,25 +33,30 @@ class EvaluatorClient(Protocol):
     def evaluate(self, *, system_prompt: str, payload: dict[str, Any], timeout: float) -> str | dict[str, Any]: ...
 
 
-def _configuration() -> tuple[str, str, str, float]:
-    import os
-
-    provider = os.getenv("LLM_PROVIDER", "").strip()
-    model = os.getenv("LLM_MODEL", "").strip()
+def _configuration() -> tuple[str, str, str, str, float]:
+    load_dotenv(Path(__file__).resolve().parents[2] / ".env", override=False)
+    provider = os.getenv("LLM_PROVIDER", DEFAULT_LLM_PROVIDER).strip()
+    base_url = os.getenv("LLM_BASE_URL", DEFAULT_LLM_BASE_URL).strip()
+    model = os.getenv("LLM_MODEL", DEFAULT_LLM_MODEL).strip()
     api_key = os.getenv("LLM_API_KEY", "").strip()
     try:
-        timeout = float(os.getenv("LLM_TIMEOUT_SECONDS", "60"))
+        timeout = float(os.getenv("LLM_TIMEOUT_SECONDS", str(DEFAULT_LLM_TIMEOUT_SECONDS)))
     except ValueError as exc:
         raise EvaluatorNotConfigured("LLM_TIMEOUT_SECONDS is invalid") from exc
-    if not provider or not model or not api_key:
+    if provider != DEFAULT_LLM_PROVIDER:
+        raise EvaluatorNotConfigured("LLM_PROVIDER must be openai-compatible")
+    if not base_url or not model or not api_key:
         raise EvaluatorNotConfigured("LLM provider is not configured")
-    if timeout <= 0:
+    if not math.isfinite(timeout) or timeout <= 0:
         raise EvaluatorNotConfigured("LLM_TIMEOUT_SECONDS must be positive")
-    return provider, model, api_key, timeout
-
+    return provider, base_url, model, api_key, timeout
 
 def has_live_evaluator() -> bool:
-    return False
+    try:
+        _configuration()
+    except EvaluatorNotConfigured:
+        return False
+    return True
 
 
 def evaluate(
@@ -49,9 +66,9 @@ def evaluate(
     *,
     client: EvaluatorClient | None = None,
 ) -> RawEvaluation:
-    provider, model, _, timeout = _configuration()
+    provider, base_url, model, api_key, timeout = _configuration()
     if client is None:
-        raise EvaluatorNotConfigured(f"No client adapter is available for provider {provider!r}")
+        client = OpenAICompatibleClient(base_url=base_url, api_key=api_key)
     payload = {
         "model": model,
         "journal": {"text": journal_text},

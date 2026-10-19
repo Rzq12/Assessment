@@ -91,6 +91,7 @@ def test_unverifiable_evidence_is_discarded_and_requires_review(evidence) -> Non
     result = score_assessment(make_evaluation(evidence=[evidence]), [CHUNK], CRITERIA)
     assert result.evidence == []
     assert result.status == "needs_review"
+    assert result.score == 0
     assert result.review_reason
 
 
