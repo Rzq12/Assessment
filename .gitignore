@@ -1,0 +1,12 @@
+# Ignore documentation and Markdown files, except README files
+/docs/
+**/*.md
+!README.md
+!**/README.md
+
+# Cache files and directories
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+Docs Materi/
