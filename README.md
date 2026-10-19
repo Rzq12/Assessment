@@ -32,7 +32,9 @@ python -m pytest -q
 
 Fase 2 menyediakan kontrak Pydantic versi `1.0`, konfigurasi kriteria di `app/core/criteria.json`, dan scoring deterministik yang menghitung skor tertimbang di backend. Bobot bawaan 40/30/20/10 dan ambang `PASSING_SCORE=75` adalah nilai prototipe, bukan kebijakan resmi. Keluaran evaluator mentah tidak dapat menentukan skor akhir atau status. Bukti harus cocok dengan ID materi, ID potongan, halaman, dan kutipan sumber; jika bukti tidak valid atau tidak cukup, hasil memerlukan tinjauan.
 
-Jalankan pengujian dengan `python -m pytest -q`. Fase ini belum menghubungkan evaluator ke UI dan tidak mencakup retrieval atau provider LLM.
+Jalankan pengujian dengan `python -m pytest -q`. Tahap 4 menambahkan retrieval kata sederhana, orkestrasi evaluasi, dan tampilan hasil JSON. Retrieval tanpa `material_id` hanya memilih materi dengan skor yang cukup dan membedakan kandidat terbaik; jika tidak yakin hasilnya `needs_review`. Bila `material_id` tersedia, hanya potongan dari materi itu yang dipakai. Cache materi dibaca dari `PROCESSED_DIR` (default `material_cache`).
+
+Evaluator saat ini hanya memiliki kontrak provider-netral dan mock untuk pengujian; adapter provider nyata belum dipilih atau dikonfigurasi. Tanpa provider, model, dan API key, aplikasi menampilkan mesin penilaian belum tersedia dan tidak mengarang hasil. Variabel yang akan digunakan: `LLM_PROVIDER`, `LLM_MODEL`, `LLM_API_KEY`, dan `LLM_TIMEOUT_SECONDS` (default 60). Unit test berjalan tanpa jaringan/API key. Evaluasi dengan provider nyata belum diverifikasi.
 
 ## Pemrosesan materi fase 3
 

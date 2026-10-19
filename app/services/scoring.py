@@ -17,7 +17,6 @@ class MaterialChunk(TypedDict):
     page: int | None
     content_text: str
 
-
 def score_assessment(
     raw: RawEvaluation,
     chunks: Sequence[MaterialChunk],

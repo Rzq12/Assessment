@@ -13,7 +13,7 @@ class MaterialChunk(BaseModel):
     text: str = Field(min_length=1)
     source_ref: str = Field(min_length=1)
     needs_check: bool = False
-
+    chunk_id: str | None = None
 
 class MaterialCache(BaseModel):
     model_config = ConfigDict(extra="forbid")
