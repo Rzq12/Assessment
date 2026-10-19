@@ -1,0 +1,6 @@
+[
+  {"criterion_id": "accuracy", "name": "Ketepatan konsep", "weight": 40},
+  {"criterion_id": "completeness", "name": "Kelengkapan", "weight": 30},
+  {"criterion_id": "understanding", "name": "Pemahaman", "weight": 20},
+  {"criterion_id": "relevance", "name": "Relevansi jurnal", "weight": 10}
+]

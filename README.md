@@ -28,6 +28,8 @@ Nilai harus berupa bilangan bulat positif. Nilai yang tidak valid ditampilkan se
 python -m pytest -q
 ```
 
-## Batasan stage one
+## Backend fase 2
 
-Belum ada autentikasi, unggah materi, integrasi SIBangkom, ingestion dokumen, retrieval, provider LLM, kontrak assessment, scoring, atau output penilaian nyata.
+Fase 2 menyediakan kontrak Pydantic versi `1.0`, konfigurasi kriteria di `app/core/criteria.json`, dan scoring deterministik yang menghitung skor tertimbang di backend. Bobot bawaan 40/30/20/10 dan ambang `PASSING_SCORE=75` adalah nilai prototipe, bukan kebijakan resmi. Keluaran evaluator mentah tidak dapat menentukan skor akhir atau status. Bukti harus cocok dengan ID materi, ID potongan, halaman, dan kutipan sumber; jika bukti tidak valid atau tidak cukup, hasil memerlukan tinjauan.
+
+Jalankan pengujian dengan `python -m pytest -q`. Fase ini belum menghubungkan evaluator ke UI dan tidak mencakup ingestion, retrieval, atau provider LLM.
