@@ -140,3 +140,32 @@ def test_criterion_id_mismatch_is_rejected(monkeypatch):
     response["criteria"][0]["criterion_id"] = "unknown"
     with pytest.raises(InvalidModelOutput, match="criterion IDs"):
         evaluate("jurnal", [], load_criteria(), client=MockClient(response))
+
+
+def test_system_prompt_declares_output_schema_and_criterion_ids(monkeypatch):
+    _configure(monkeypatch)
+    client = MockClient(json.dumps(_response()))
+    evaluate("jurnal", [], load_criteria(), client=client)
+
+    prompt = client.calls[0]["system_prompt"]
+    assert "evidence_sufficient" in prompt
+    assert '"additionalProperties": false' in prompt
+    for criterion in load_criteria():
+        assert criterion.criterion_id in prompt
+
+
+@pytest.mark.parametrize(
+    "wrapped",
+    [
+        lambda body: f"```json\n{body}\n```",
+        lambda body: f"```\n{body}\n```",
+        lambda body: f"Berikut hasilnya:\n{body}\nSemoga membantu.",
+    ],
+)
+def test_fenced_or_prose_wrapped_json_is_accepted(monkeypatch, wrapped):
+    _configure(monkeypatch)
+    client = MockClient(wrapped(json.dumps(_response())))
+    result = evaluate("jurnal", [], load_criteria(), client=client)
+    assert len(result.criteria) == len(load_criteria())
+    assert result.summary == "Ringkasan"
+
