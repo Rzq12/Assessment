@@ -32,4 +32,8 @@ python -m pytest -q
 
 Fase 2 menyediakan kontrak Pydantic versi `1.0`, konfigurasi kriteria di `app/core/criteria.json`, dan scoring deterministik yang menghitung skor tertimbang di backend. Bobot bawaan 40/30/20/10 dan ambang `PASSING_SCORE=75` adalah nilai prototipe, bukan kebijakan resmi. Keluaran evaluator mentah tidak dapat menentukan skor akhir atau status. Bukti harus cocok dengan ID materi, ID potongan, halaman, dan kutipan sumber; jika bukti tidak valid atau tidak cukup, hasil memerlukan tinjauan.
 
-Jalankan pengujian dengan `python -m pytest -q`. Fase ini belum menghubungkan evaluator ke UI dan tidak mencakup ingestion, retrieval, atau provider LLM.
+Jalankan pengujian dengan `python -m pytest -q`. Fase ini belum menghubungkan evaluator ke UI dan tidak mencakup retrieval atau provider LLM.
+
+## Pemrosesan materi fase 3
+
+`ingest_materials(source_dir, cache_dir)` memproses berkas PDF dan DOCX secara berurutan menurut nama berkas. Hasil disimpan sebagai JSON dengan hash SHA-256 sumber; berkas diurai ulang bila isinya berubah. Format lain, dokumen rusak, atau dokumen tanpa teks yang dapat diekstrak akan dilewati. DOCX tidak memiliki nomor halaman yang dapat diandalkan pada tahap ini; rujukan menggunakan heading dan urutan elemen. Docling dapat memerlukan model dan dependensi tambahan berukuran besar. OCR bergantung pada konfigurasi dan bahasa yang tersedia; akurasi OCR/vision belum divalidasi terhadap materi pelatihan yang sebenarnya. Tidak ada konten yang dikirim ke provider vision eksternal.

@@ -1,3 +1,4 @@
 streamlit>=1.40,<2
 pydantic>=2.7,<3
+docling>=2.130,<3
 pytest>=8,<9
