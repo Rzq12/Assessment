@@ -1,4 +1,3 @@
-import json
 from pathlib import Path
 
 from streamlit.testing.v1 import AppTest
@@ -90,7 +89,7 @@ def test_assessment_requires_save_then_explicit_consent(monkeypatch, tmp_path) -
     assert request.material_id == "Materi Uji"
 
 
-def test_material_results_render_score_and_hide_missing_score(monkeypatch, tmp_path) -> None:
+def test_material_results_render_pass_status_without_score(monkeypatch, tmp_path) -> None:
     from types import SimpleNamespace
 
     import app.services.assessment as assessment_module
@@ -115,6 +114,7 @@ def test_material_results_render_score_and_hide_missing_score(monkeypatch, tmp_p
     next(item for item in app.checkbox if "Saya menyetujui" in item.label).check().run()
     app.button[-1].click().run()
 
-    assert app.metric[0].value == "82.50 / 100"
-    assert any("Status: **pass**" in item.value for item in app.markdown)
-    assert json.loads(app.json[0].value)["score"] == 82.5
+    assert any(item.value == "PASS" for item in app.success)
+    assert not app.metric
+    assert not app.json
+    assert not any("82.5" in item.value for item in app.markdown)

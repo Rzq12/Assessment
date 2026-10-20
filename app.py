@@ -135,9 +135,14 @@ for material in materials:
             st.write(result["summary"])
             st.write(f"Status: **{result['status']}**")
             if result.get("review_required"):
-                st.warning("Penilaian belum menghasilkan skor. Coba lagi setelah memeriksa konfigurasi dan materi.")
+                st.warning("Hasil belum dapat ditetapkan sebagai PASS atau NOT PASS. Silakan tinjau kembali materi dan jurnal.")
                 if result.get("review_reason"):
                     st.caption(f"Alasan: {result['review_reason']}")
             else:
-                st.metric("Skor", f"{result['score']:.2f} / 100")
-                st.json(result)
+                status = result.get("status")
+                if status == "pass":
+                    st.success("PASS")
+                elif status == "not_pass":
+                    st.error("NOT PASS")
+                else:
+                    st.warning("Status penilaian tidak dikenali. Silakan tinjau kembali.")
