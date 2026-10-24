@@ -44,12 +44,8 @@ def score_assessment(
         ):
             verified_evidence.append(evidence)
 
-    review_reasons = []
-    if not verified_evidence:
-        review_reasons.append("Tidak ada bukti yang cocok dengan materi sumber.")
-    if any(not criterion.evidence_sufficient for criterion in raw.criteria):
-        review_reasons.append("Bukti untuk satu atau lebih kriteria tidak cukup.")
-    if review_reasons:
+    # Unverifiable evidence and criteria the model marked as unsupported share one reason code.
+    if not verified_evidence or any(not criterion.evidence_sufficient for criterion in raw.criteria):
         return AssessmentResponse(
             assessment_id=assessment_id or f"ASM-{uuid4().hex[:12].upper()}",
             status=AssessmentStatus.NEEDS_REVIEW,
@@ -71,7 +67,7 @@ def score_assessment(
             strengths=[],
             improvements=[],
             review_required=True,
-            review_reason=" ".join(review_reasons),
+            review_reason="insufficient_evidence",
         )
 
     results = [
@@ -86,7 +82,12 @@ def score_assessment(
         for criterion in raw.criteria
     ]
     final_score = round(sum(result.weighted_score for result in results), 2)
-    if final_score >= passing_score:
+    mandatory_met = all(
+        configured[result.criterion_id].minimum_score is None
+        or result.score >= configured[result.criterion_id].minimum_score
+        for result in results
+    )
+    if final_score >= passing_score and mandatory_met:
         status = AssessmentStatus.PASS
     else:
         status = AssessmentStatus.NOT_PASS

@@ -81,17 +81,15 @@ def test_no_relevant_material_skips_evaluator_and_is_non_scored_review(tmp_path)
 
 
 @pytest.mark.parametrize("error", [EvaluatorNotConfigured("missing"), ProviderRequestError("offline")])
-def test_known_provider_failures_become_non_scored_review(tmp_path, error):
+def test_infrastructure_failures_raise_instead_of_producing_an_assessment(tmp_path, error):
     _cache(tmp_path / "modul.json", "Prosedur keselamatan")
-    response = assess_journal(
-        AssessmentRequest(journal_text="prosedur keselamatan", material_id="modul"),
-        tmp_path,
-        load_criteria(),
-        evaluator=lambda *a, **k: (_ for _ in ()).throw(error),
-    )
-    assert response.status == "needs_review"
-    assert response.score == 0
-    assert response.review_required
+    with pytest.raises(type(error)):
+        assess_journal(
+            AssessmentRequest(journal_text="prosedur keselamatan", material_id="modul"),
+            tmp_path,
+            load_criteria(),
+            evaluator=lambda *a, **k: (_ for _ in ()).throw(error),
+        )
 
 
 def test_unexpected_evaluator_error_propagates(tmp_path):

@@ -5,6 +5,8 @@ from typing import Self
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
+from app.core.config import get_criteria_file
+
 
 class CriterionConfig(BaseModel):
     model_config = ConfigDict(extra="forbid")
@@ -12,6 +14,9 @@ class CriterionConfig(BaseModel):
     criterion_id: str = Field(min_length=1)
     name: str = Field(min_length=1)
     weight: int = Field(gt=0, le=100)
+    # Mandatory requirement: a passing result also needs this criterion score at least
+    # this high. None means the criterion has no mandatory minimum.
+    minimum_score: float | None = Field(default=None, ge=0, le=100, allow_inf_nan=False)
 
 
 class CriteriaFile(BaseModel):
@@ -30,7 +35,7 @@ class CriteriaFile(BaseModel):
 
 
 def load_criteria(path: Path | None = None) -> list[CriterionConfig]:
-    criteria_path = path or Path(__file__).with_name("criteria.json")
+    criteria_path = path or get_criteria_file() or Path(__file__).with_name("criteria.json")
     data = json.loads(criteria_path.read_text(encoding="utf-8"))
     if isinstance(data, list):
         data = {"criteria": data}

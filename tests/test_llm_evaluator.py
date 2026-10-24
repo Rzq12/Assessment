@@ -59,27 +59,52 @@ def test_evaluate_validates_output_and_keeps_journal_as_payload_data(monkeypatch
     assert client.calls[0]["timeout"] == 12
 
 
-def test_configuration_loads_project_dotenv_without_overriding_environment(monkeypatch, tmp_path):
+def test_configuration_loads_project_dotenv_without_overriding_environment(monkeypatch, tmp_path, real_load_environment):
+    from app.core import config
     from app.services import llm_evaluator
 
-    env_file = tmp_path / ".env"
-    env_file.write_text("LLM_API_KEY=dotenv-key\nLLM_MODEL=dotenv-model\n", encoding="utf-8")
-    monkeypatch.setattr(llm_evaluator, "__file__", str(tmp_path / "app/services/llm_evaluator.py"))
-    monkeypatch.setattr(llm_evaluator, "load_dotenv", lambda path, **kwargs: __import__("dotenv").load_dotenv(path, override=False))
-    monkeypatch.delenv("LLM_PROVIDER", raising=False)
-    monkeypatch.delenv("LLM_BASE_URL", raising=False)
-    monkeypatch.delenv("LLM_API_KEY", raising=False)
+    (tmp_path / ".env").write_text(
+        "LLM_PROVIDER=openai-compatible\nLLM_BASE_URL=https://llm.example.test/v1\n"
+        "LLM_API_KEY=dotenv-key\nLLM_MODEL=dotenv-model\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(config, "PROJECT_ROOT", tmp_path)
     monkeypatch.setenv("LLM_MODEL", "environment-model")
 
     assert has_live_evaluator() is True
-    assert llm_evaluator._configuration()[2] == "environment-model"
+    assert llm_evaluator._configuration().model == "environment-model"
     assert os.getenv("LLM_API_KEY") == "dotenv-key"
 
 
-def test_provider_defaults_are_selected_but_api_key_is_required(monkeypatch):
-    from app.services import llm_evaluator
+def test_default_configuration_has_no_provider():
+    from app.services.llm_evaluator import get_evaluator_endpoint
 
-    monkeypatch.setattr(llm_evaluator, "load_dotenv", lambda *args, **kwargs: None)
+    assert has_live_evaluator() is False
+    assert get_evaluator_endpoint() is None
+
+
+def test_endpoint_follows_configured_base_url(monkeypatch):
+    from app.services.llm_evaluator import get_evaluator_endpoint
+
+    _configure(monkeypatch)
+    monkeypatch.setenv("LLM_BASE_URL", "https://llm.example.test/v1")
+    assert get_evaluator_endpoint() == "https://llm.example.test/v1"
+
+
+def test_unsupported_provider_is_not_live(monkeypatch):
+    _configure(monkeypatch)
+    monkeypatch.setenv("LLM_PROVIDER", "unknown-provider")
+    assert has_live_evaluator() is False
+
+
+@pytest.mark.parametrize("temperature", ["-0.1", "2.5", "nan", "bad"])
+def test_invalid_temperature_disables_live_evaluator(monkeypatch, temperature):
+    _configure(monkeypatch)
+    monkeypatch.setenv("LLM_TEMPERATURE", temperature)
+    assert has_live_evaluator() is False
+
+
+def test_unconfigured_provider_is_rejected(monkeypatch):
     for name in ("LLM_PROVIDER", "LLM_BASE_URL", "LLM_MODEL", "LLM_API_KEY"):
         monkeypatch.delenv(name, raising=False)
     assert has_live_evaluator() is False
@@ -88,9 +113,6 @@ def test_provider_defaults_are_selected_but_api_key_is_required(monkeypatch):
 
 
 def test_missing_provider_configuration_is_rejected(monkeypatch):
-    from app.services import llm_evaluator
-
-    monkeypatch.setattr(llm_evaluator, "load_dotenv", lambda *args, **kwargs: None)
     for name in ("LLM_PROVIDER", "LLM_BASE_URL", "LLM_MODEL", "LLM_API_KEY"):
         monkeypatch.delenv(name, raising=False)
     with pytest.raises(EvaluatorNotConfigured):
@@ -101,11 +123,12 @@ def test_configured_evaluator_uses_adapter_without_network(monkeypatch):
     from app.services import llm_evaluator
 
     _configure(monkeypatch)
+    monkeypatch.setenv("LLM_TEMPERATURE", "0.1")
     seen = {}
 
     class Adapter:
-        def __init__(self, base_url, api_key):
-            seen.update(base_url=base_url, api_key=api_key)
+        def __init__(self, **kwargs):
+            seen.update(kwargs)
 
         def evaluate(self, **kwargs):
             seen.update(kwargs)
@@ -116,8 +139,11 @@ def test_configured_evaluator_uses_adapter_without_network(monkeypatch):
     evaluate("journal", [], load_criteria())
     assert seen["base_url"] == "https://9router.riezqidr.my.id/v1"
     assert seen["api_key"] == "test-key"
+    assert seen["model"] == "test-model"
+    assert seen["temperature"] == 0.1
     assert seen["timeout"] == 12
-    assert seen["payload"]["model"] == "test-model"
+    assert "model" not in seen["payload"]
+    assert set(seen["payload"]["criteria"][0]) == {"criterion_id", "name", "weight"}
 
 
 @pytest.mark.parametrize("timeout", ["0", "-1", "nan", "inf", "bad"])

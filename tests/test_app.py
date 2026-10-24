@@ -1,5 +1,7 @@
 from pathlib import Path
 
+import pytest
+
 from streamlit.testing.v1 import AppTest
 
 APP = str(Path(__file__).resolve().parents[1] / "app.py")
@@ -58,13 +60,53 @@ def test_answer_save_is_session_scoped(monkeypatch, tmp_path) -> None:
     assert any("Tersimpan di sesi ini" in item.value for item in app.markdown)
 
 
+def _submit(app) -> None:
+    app.text_area[0].input("Refleksi untuk materi uji").run()
+    app.button[0].click().run()
+    app.button[1].click().run()
+    next(item for item in app.checkbox if "Saya menyetujui" in item.label).check().run()
+    app.button[-1].click().run()
+
+
+def _live_evaluator(monkeypatch, endpoint="https://llm.example.test/v1") -> None:
+    import app.services.llm_evaluator as evaluator_module
+
+    monkeypatch.setattr(evaluator_module, "has_live_evaluator", lambda: True)
+    monkeypatch.setattr(evaluator_module, "get_evaluator_endpoint", lambda: endpoint)
+
+
+def _response(**overrides):
+    from app.schemas.response import AssessmentResponse, CriterionResult, Evidence
+
+    data = dict(
+        assessment_id="ASM-TEST",
+        status="pass",
+        score=82.5,
+        passing_score=75,
+        summary="Hasil sesuai materi.",
+        criteria=[CriterionResult(
+            criterion_id="accuracy", name="Ketepatan konsep", weight=100,
+            score=82.5, weighted_score=82.5, feedback="Konsep dijelaskan dengan tepat.",
+        )],
+        evidence=[Evidence(
+            material_id="Materi Uji", chunk_id="Materi Uji:materi.pdf:1", page=1,
+            reference_text="Kutipan asli", explanation="Mendukung jawaban.",
+        )],
+        strengths=["Penjelasan runtut"],
+        improvements=["Tambahkan contoh penerapan"],
+        review_required=False,
+        review_reason=None,
+    )
+    data.update(overrides)
+    return AssessmentResponse(**data)
+
+
 def test_assessment_requires_save_then_explicit_consent(monkeypatch, tmp_path) -> None:
     import app.services.assessment as assessment_module
-    import app.services.llm_evaluator as evaluator_module
 
     _write_material(tmp_path)
     monkeypatch.setenv("PROCESSED_DIR", str(tmp_path))
-    monkeypatch.setattr(evaluator_module, "has_live_evaluator", lambda: True)
+    _live_evaluator(monkeypatch)
     calls = []
     monkeypatch.setattr(assessment_module, "assess_journal", lambda *args, **kwargs: calls.append((args, kwargs)))
 
@@ -76,7 +118,8 @@ def test_assessment_requires_save_then_explicit_consent(monkeypatch, tmp_path) -
 
     app.button[0].click().run()
     app.button[1].click().run()
-    assert any("akan dikirim ke 9Router" in item.value for item in app.warning)
+    assert any("https://llm.example.test/v1" in item.value for item in app.warning)
+    assert not any("9router" in item.value.casefold() for item in app.warning)
     assert not calls
 
     consent = next(item for item in app.checkbox if "Saya menyetujui" in item.label)
@@ -89,32 +132,81 @@ def test_assessment_requires_save_then_explicit_consent(monkeypatch, tmp_path) -
     assert request.material_id == "Materi Uji"
 
 
-def test_material_results_render_pass_status_without_score(monkeypatch, tmp_path) -> None:
-    from types import SimpleNamespace
-
-    import app.services.assessment as assessment_module
+def test_unconfigured_evaluator_is_reported_before_consent(monkeypatch, tmp_path) -> None:
     import app.services.llm_evaluator as evaluator_module
 
     _write_material(tmp_path)
     monkeypatch.setenv("PROCESSED_DIR", str(tmp_path))
-    monkeypatch.setattr(evaluator_module, "has_live_evaluator", lambda: True)
-    result = SimpleNamespace(
-        summary="Hasil sesuai materi.",
-        status=SimpleNamespace(value="pass"),
-        review_required=False,
-        score=82.5,
-        model_dump=lambda **kwargs: {"summary": "Hasil sesuai materi.", "status": "pass", "review_required": False, "score": 82.5},
-    )
-    monkeypatch.setattr(assessment_module, "assess_journal", lambda *args, **kwargs: result)
+    monkeypatch.setattr(evaluator_module, "has_live_evaluator", lambda: False)
 
     app = AppTest.from_file(APP).run()
     app.text_area[0].input("Refleksi untuk materi uji").run()
     app.button[0].click().run()
     app.button[1].click().run()
-    next(item for item in app.checkbox if "Saya menyetujui" in item.label).check().run()
-    app.button[-1].click().run()
 
-    assert any(item.value == "PASS" for item in app.success)
+    assert any("Mesin penilaian belum tersedia" in item.value for item in app.info)
+    assert not app.checkbox
+
+
+@pytest.mark.parametrize(("status", "score", "label"), [("pass", 82.5, "PASS"), ("not_pass", 61.25, "NOT PASS")])
+def test_material_results_show_only_pass_status_without_score(monkeypatch, tmp_path, status, score, label) -> None:
+    import app.services.assessment as assessment_module
+
+    _write_material(tmp_path)
+    monkeypatch.setenv("PROCESSED_DIR", str(tmp_path))
+    _live_evaluator(monkeypatch)
+    response = _response(status=status, score=score)
+    monkeypatch.setattr(assessment_module, "assess_journal", lambda *args, **kwargs: response)
+
+    app = AppTest.from_file(APP).run()
+    _submit(app)
+
+    shown = [item.value for item in (*app.success, *app.error)]
+    assert shown == [label]
     assert not app.metric
     assert not app.json
-    assert not any("82.5" in item.value for item in app.markdown)
+    assert not app.get("download_button")
+    rendered = " ".join(item.value for item in (*app.markdown, *app.caption))
+    for hidden in (f"{score:g}", "Ketepatan konsep", "Mendukung jawaban", "Penjelasan runtut", "Tambahkan contoh"):
+        assert hidden not in rendered
+
+
+def test_review_result_shows_reason_without_score(monkeypatch, tmp_path) -> None:
+    import app.services.assessment as assessment_module
+
+    _write_material(tmp_path)
+    monkeypatch.setenv("PROCESSED_DIR", str(tmp_path))
+    _live_evaluator(monkeypatch)
+    review = _response(
+        status="needs_review", score=0, evidence=[], strengths=[], improvements=[],
+        review_required=True, review_reason="insufficient_evidence",
+    )
+    monkeypatch.setattr(assessment_module, "assess_journal", lambda *args, **kwargs: review)
+
+    app = AppTest.from_file(APP).run()
+    _submit(app)
+
+    assert any("belum dapat ditetapkan" in item.value for item in app.warning)
+    assert any("Bukti dari materi tidak cukup" in item.value for item in app.caption)
+    assert not app.metric
+    assert not app.success
+
+
+def test_provider_failure_shows_error_without_result(monkeypatch, tmp_path) -> None:
+    import app.services.assessment as assessment_module
+    from app.services.llm_client import ProviderRequestError
+
+    _write_material(tmp_path)
+    monkeypatch.setenv("PROCESSED_DIR", str(tmp_path))
+    _live_evaluator(monkeypatch)
+
+    def fail(*args, **kwargs):
+        raise ProviderRequestError("offline")
+
+    monkeypatch.setattr(assessment_module, "assess_journal", fail)
+
+    app = AppTest.from_file(APP).run()
+    _submit(app)
+
+    assert any("Layanan penilaian tidak merespons" in item.value for item in app.error)
+    assert not app.get("download_button")

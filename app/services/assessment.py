@@ -98,9 +98,9 @@ def assess_journal(
             logger.info("assessment_id=%s status=%s error=invalid_model_output duration_ms=%d", assessment_id, response.status, int((perf_counter() - started) * 1000))
             return response
         except (EvaluatorNotConfigured, ProviderRequestError):
-            response = _review_response(assessment_id, criteria, passing_score, "evaluator_unavailable")
-            logger.info("assessment_id=%s status=%s error=evaluator_unavailable duration_ms=%d", assessment_id, response.status, int((perf_counter() - started) * 1000))
-            return response
+            # Infrastructure failures produce no reviewable assessment; the caller shows an error.
+            logger.info("assessment_id=%s error=evaluator_unavailable duration_ms=%d", assessment_id, int((perf_counter() - started) * 1000))
+            raise
         scoring_chunks = [
             {
                 "material_id": chunk["material_id"],
@@ -113,6 +113,8 @@ def assess_journal(
         response = score_assessment(raw, scoring_chunks, criteria, passing_score, assessment_id)
         logger.info("assessment_id=%s status=%s duration_ms=%d", assessment_id, response.status, int((perf_counter() - started) * 1000))
         return response
+    except (EvaluatorNotConfigured, ProviderRequestError):
+        raise
     except Exception as exc:
         logger.warning("assessment_id=%s error=%s duration_ms=%d", assessment_id, type(exc).__name__, int((perf_counter() - started) * 1000))
         raise

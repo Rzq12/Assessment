@@ -41,3 +41,12 @@ def test_passing_score_configuration(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setenv("PASSING_SCORE", "101")
     with pytest.raises(ValueError, match="0 to 100"):
         get_passing_score()
+
+
+def test_criteria_file_can_be_configured(monkeypatch, tmp_path) -> None:
+    path = tmp_path / "custom.json"
+    path.write_text(json.dumps([{"criterion_id": "only", "name": "Only", "weight": 100, "minimum_score": 60}]))
+    monkeypatch.setenv("CRITERIA_FILE", str(path))
+    criteria = load_criteria()
+    assert [item.criterion_id for item in criteria] == ["only"]
+    assert criteria[0].minimum_score == 60

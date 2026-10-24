@@ -1,29 +1,26 @@
 import json
-import math
-import os
 import re
-from pathlib import Path
 from collections.abc import Sequence
 from typing import Any, Protocol
 
-from app.core.config import (
-    DEFAULT_LLM_BASE_URL,
-    DEFAULT_LLM_MODEL,
-    DEFAULT_LLM_PROVIDER,
-    DEFAULT_LLM_TIMEOUT_SECONDS,
-)
-from app.services.llm_client import OpenAICompatibleClient
-
 from pydantic import ValidationError
-from dotenv import load_dotenv
 
+from app.core import config
+from app.core.config import EvaluatorNotConfigured, LLMSettings
 from app.core.criteria import CriterionConfig
 from app.schemas.material import MaterialChunk
 from app.schemas.response import RawEvaluation
+from app.services.llm_client import OpenAICompatibleClient
 
-
-class EvaluatorNotConfigured(RuntimeError):
-    pass
+__all__ = [
+    "EvaluatorClient",
+    "EvaluatorNotConfigured",
+    "InvalidModelOutput",
+    "create_client",
+    "evaluate",
+    "get_evaluator_endpoint",
+    "has_live_evaluator",
+]
 
 
 class InvalidModelOutput(ValueError):
@@ -34,23 +31,24 @@ class EvaluatorClient(Protocol):
     def evaluate(self, *, system_prompt: str, payload: dict[str, Any], timeout: float) -> str | dict[str, Any]: ...
 
 
-def _configuration() -> tuple[str, str, str, str, float]:
-    load_dotenv(Path(__file__).resolve().parents[2] / ".env", override=False)
-    provider = os.getenv("LLM_PROVIDER", DEFAULT_LLM_PROVIDER).strip()
-    base_url = os.getenv("LLM_BASE_URL", DEFAULT_LLM_BASE_URL).strip()
-    model = os.getenv("LLM_MODEL", DEFAULT_LLM_MODEL).strip()
-    api_key = os.getenv("LLM_API_KEY", "").strip()
-    try:
-        timeout = float(os.getenv("LLM_TIMEOUT_SECONDS", str(DEFAULT_LLM_TIMEOUT_SECONDS)))
-    except ValueError as exc:
-        raise EvaluatorNotConfigured("LLM_TIMEOUT_SECONDS is invalid") from exc
-    if provider != DEFAULT_LLM_PROVIDER:
-        raise EvaluatorNotConfigured("LLM_PROVIDER must be openai-compatible")
-    if not base_url or not model or not api_key:
-        raise EvaluatorNotConfigured("LLM provider is not configured")
-    if not math.isfinite(timeout) or timeout <= 0:
-        raise EvaluatorNotConfigured("LLM_TIMEOUT_SECONDS must be positive")
-    return provider, base_url, model, api_key, timeout
+def _configuration() -> LLMSettings:
+    return config.get_llm_settings()
+
+
+def create_client(settings: LLMSettings) -> OpenAICompatibleClient:
+    """Return the adapter for the configured provider."""
+    adapters = {"openai-compatible": OpenAICompatibleClient}
+    adapter = adapters.get(settings.provider)
+    if adapter is None:
+        raise EvaluatorNotConfigured(f"Unsupported LLM provider: {settings.provider}")
+    return adapter(
+        base_url=settings.base_url,
+        api_key=settings.api_key,
+        model=settings.model,
+        temperature=settings.temperature,
+        vision_model=settings.vision_model,
+    )
+
 
 def has_live_evaluator() -> bool:
     try:
@@ -58,6 +56,14 @@ def has_live_evaluator() -> bool:
     except EvaluatorNotConfigured:
         return False
     return True
+
+
+def get_evaluator_endpoint() -> str | None:
+    """Base URL that journals are sent to, for the consent notice."""
+    try:
+        return _configuration().base_url
+    except EvaluatorNotConfigured:
+        return None
 
 
 def _parse_json(response: str | dict[str, Any]) -> Any:
@@ -118,18 +124,20 @@ def evaluate(
     *,
     client: EvaluatorClient | None = None,
 ) -> RawEvaluation:
-    provider, base_url, model, api_key, timeout = _configuration()
+    settings = _configuration()
     if client is None:
-        client = OpenAICompatibleClient(base_url=base_url, api_key=api_key)
+        client = create_client(settings)
     payload = {
-        "model": model,
         "journal": {"text": journal_text},
         "chunks": [chunk.model_dump(mode="json") for chunk in chunks],
-        "criteria": [criterion.model_dump(mode="json") for criterion in criteria],
+        "criteria": [
+            criterion.model_dump(mode="json", include={"criterion_id", "name", "weight"})
+            for criterion in criteria
+        ],
     }
     system_prompt = _build_system_prompt(criteria)
     try:
-        response = client.evaluate(system_prompt=system_prompt, payload=payload, timeout=timeout)
+        response = client.evaluate(system_prompt=system_prompt, payload=payload, timeout=settings.timeout)
         raw = _parse_json(response)
         evaluation = RawEvaluation.model_validate(raw)
         expected = {criterion.criterion_id for criterion in criteria}

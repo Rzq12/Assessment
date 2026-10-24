@@ -92,7 +92,7 @@ def test_unverifiable_evidence_is_discarded_and_requires_review(evidence) -> Non
     assert result.evidence == []
     assert result.status == "needs_review"
     assert result.score == 0
-    assert result.review_reason
+    assert result.review_reason == "insufficient_evidence"
 
 
 def test_valid_evidence_and_page_less_docx_chunk_are_accepted() -> None:
@@ -105,4 +105,12 @@ def test_valid_evidence_and_page_less_docx_chunk_are_accepted() -> None:
 def test_insufficient_criterion_evidence_requires_review() -> None:
     result = score_assessment(make_evaluation(sufficient=False), [CHUNK], CRITERIA)
     assert result.status == "needs_review"
-    assert "tidak cukup" in result.review_reason
+    assert result.review_reason == "insufficient_evidence"
+
+
+@pytest.mark.parametrize(("minimum", "expected"), [(95, "not_pass"), (90, "pass")])
+def test_mandatory_minimum_score_is_required_for_pass(minimum, expected) -> None:
+    criteria = [CriterionConfig(criterion_id="a", name="A", weight=40, minimum_score=minimum), *CRITERIA[1:]]
+    result = score_assessment(make_evaluation((90, 100, 100, 100)), [CHUNK], criteria)
+    assert result.score == 96
+    assert result.status == expected

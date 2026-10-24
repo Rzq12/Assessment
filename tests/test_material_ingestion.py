@@ -11,7 +11,7 @@ def test_ingest_is_sorted_and_skips_failures(tmp_path, monkeypatch, caplog):
     (source_dir / "a.docx").write_text("", encoding="utf-8")
     calls = []
 
-    def parse(path, material_id, cache_dir):
+    def parse(path, material_id, cache_dir, **kwargs):
         calls.append(path.name)
         if path.name == "a.docx":
             raise ValueError("SECRET TEXT")
